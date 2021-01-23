@@ -19,7 +19,7 @@ public class CopperOre {
                 new Block(Material.ROCK).setRegistryName("magicraft", "copper_ore")
                 //设置方块硬度
                .setHardness(1F)
-               .setCreativeTab(MagicraftBlocksTab.BUILDING_BLOCKS)
+               .setCreativeTab(MagicraftBlocksTab.NATURE_BLOCKS)
                .setRegistryName("magicraft","copper_ore")
         );
 
