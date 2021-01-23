@@ -4,9 +4,11 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.block.Block;
 
 public abstract class MagicraftBlocksTab extends CreativeTabs{
+     private static CreativeTabs NatureBlocks;
+    public static final CreativeTabs NATURE_BLOCKS =NatureBlocks;
     public MagicraftBlocksTab()
     {
-        super("MagicraftBlocks");
+        super("MagicraftNatureBlocks");
     }
 
     public MagicraftBlocksTab(String label) {
