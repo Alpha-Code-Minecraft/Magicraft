@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "magicraft:textures/blocks/ore/lead_ore_particle",
+    "down": "magicraft:textures/blocks/ore/lead_ore",
+    "up": "magicraft:textures/blocks/ore/lead_ore",
+    "north": "magicraft:textures/blocks/ore/lead_ore",
+    "south": "magicraft:textures/blocks/ore/lead_ore",
+    "west": "magicraft:textures/blocks/ore/lead_ore",
+    "east": "magicraft:textures/blocks/ore/lead_ore"
+  }
+}
