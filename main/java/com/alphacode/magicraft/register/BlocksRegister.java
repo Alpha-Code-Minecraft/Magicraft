@@ -9,18 +9,38 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
     @Mod.EventBusSubscriber
     public class BlocksRegister {
         private static Object CopperOre;
+        private static Object TinOre;
+        private static Object LeadOre;
+        private static Object SilverOre;
+        private static Object CinnabarOre;
+        private static Object SaltOre;
+        private static Object SulfurOre;
+        //实例化方块
         public static final Block COPPER_ORE = new Block((Material) CopperOre);
-
-        public BlocksRegister() {
+        public static final Block TIN_ORE = new Block((Material) TinOre);
+        public static final Block LEAD_ORE = new Block((Material) LeadOre);
+        public static final Block SILVER_ORE = new Block((Material) SilverOre);
+        public static final Block CINNABAR_ORE = new Block((Material) CinnabarOre);
+        public static final Block SALT_ORE = new Block((Material) SaltOre);
+        public static final Block SULFUR_ORE = new Block((Material) SulfurOre);
+        public BlocksRegister(FMLPreInitializationEvent event) {
             MinecraftForge.EVENT_BUS.register(this);
         }
 
         private static Block[] blocks = {
-                COPPER_ORE
+                //注册方块
+                COPPER_ORE,
+                TIN_ORE,
+                LEAD_ORE,
+                SILVER_ORE,
+                CINNABAR_ORE,
+                SALT_ORE,
+                SULFUR_ORE,
         };
 
         @SubscribeEvent
@@ -41,7 +61,36 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
             }
         }
+
+        public static void setCopperOre(Object copperOre) {
+            CopperOre = copperOre;
+        }
+        public static void setTinOre(Object tinOre) {
+            TinOre = tinOre;
+        }
+        public static void setLeadOre(Object leadOre) {
+            LeadOre = leadOre;
+        }
+        public static void setSilverOre(Object silverOre) {
+            SilverOre = silverOre;
+        }
+        public static void setCinnabarOre(Object cinnabarOre) { CinnabarOre = cinnabarOre; }
+
+        public static void setSaltOre(Object saltOre) {
+            SaltOre = saltOre;
+        }
     }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
