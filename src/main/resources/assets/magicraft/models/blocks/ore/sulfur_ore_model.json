@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "magicraft:textures/blocks/ore/sulfur_ore_particle",
+    "down": "magicraft:textures/blocks/ore/sulfur_ore",
+    "up": "magicraft:textures/blocks/ore/sulfur_ore",
+    "north": "magicraft:textures/blocks/ore/sulfur_ore",
+    "south": "magicraft:textures/blocks/ore/sulfur_ore",
+    "west": "magicraft:textures/blocks/ore/sulfur_ore",
+    "east": "magicraft:textures/blocks/ore/sulfur_ore"
+  }
+}

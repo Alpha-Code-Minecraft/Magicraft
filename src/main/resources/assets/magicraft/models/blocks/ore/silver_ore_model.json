@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "magicraft:textures/blocks/ore/silver_ore_particle",
+    "down": "magicraft:textures/blocks/ore/silver_ore",
+    "up": "magicraft:textures/blocks/ore/silver_ore",
+    "north": "magicraft:textures/blocks/ore/silver_ore",
+    "south": "magicraft:textures/blocks/ore/silver_ore",
+    "west": "magicraft:textures/blocks/ore/silver_ore",
+    "east": "magicraft:textures/blocks/ore/silver_ore"
+  }
+}

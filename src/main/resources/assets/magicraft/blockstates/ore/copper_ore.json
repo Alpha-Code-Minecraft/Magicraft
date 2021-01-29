@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "normal": {
+            "model": "magicraft:copper_ore_model"
+        }
+    }
+}
