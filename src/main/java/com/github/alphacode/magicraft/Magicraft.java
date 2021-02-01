@@ -10,7 +10,7 @@ import com.github.alphacode.magicraft.common.CommonProxy;
 /**
  * @author AlphaCode:JasonAlpha
  */
-@Mod(modid = Magicraft.MODID, name = Magicraft.NAME, version = "0.0.1", acceptedMinecraftVersions = "1.12.2",dependencies = "patchouli,baubles")
+@Mod(modid = "magicraft", name = "Magicraft", version = "0.0.1", acceptedMinecraftVersions = "1.12.2",dependencies = "patchouli,baubles")
 public class Magicraft {
     public static final String MODID = "magicraft";
     public static final String NAME = "Magicraft";
